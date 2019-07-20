@@ -1,0 +1,21 @@
+<div>
+    <app-profile-viewer></app-profile-viewer>
+    <div class="left">
+        <h2>General</h2>
+        <hr>
+        <p class="lead"><b>Fecha de nacimiento:</b> {{profile.fechaNacimiento}} </p>
+        <p class="lead"><b>Email:</b> {{profile.email}} </p>
+        <p class="lead"><b>Telefono:</b> {{profile.telefono}} </p>
+        <p class="lead"><b>Celular:</b> {{profile.celular}} </p>
+        <p class="lead"><b>Dirección:</b> {{profile.direccion}} </p>
+
+        <h2>Estudios</h2>
+        <hr>
+            <div *ngFor="let estudio of profile.estudios">
+            <h4>{{estudio.institucion}}</h4>
+            <i class="lead">{{estudio.tiempo}} </i>
+            <p class="lead">{{estudio.titulo}} </p>
+    </div>
+</div>
+
+

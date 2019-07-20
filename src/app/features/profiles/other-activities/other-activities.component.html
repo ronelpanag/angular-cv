@@ -1,0 +1,12 @@
+<div>
+    <app-profile-viewer></app-profile-viewer>
+</div>
+
+<div class="left">
+    <h2>Otras actividades</h2>
+    <hr>
+    <div *ngFor="let actividad of profile.actividadesExtracurrilares">
+        <h5>{{actividad.funcion}} </h5>
+        <p class="lead">{{actividad.lugar}} </p>
+    </div>
+</div>

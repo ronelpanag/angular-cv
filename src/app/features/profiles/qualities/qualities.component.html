@@ -1,0 +1,15 @@
+<div>
+    <app-profile-viewer></app-profile-viewer>
+</div>
+
+
+<div class="left">
+    <h2>Habilidades blandas</h2>
+    <ul>
+        <li *ngFor="let habilidad of profile.habilidadesBlandas">{{habilidad}} </li>
+    </ul>
+    <h2>Habilidades tecnicas</h2>
+    <ul>
+        <li *ngFor="let habilidad of profile.habilidadesTecnicas">{{habilidad}} </li>
+    </ul>
+</div>

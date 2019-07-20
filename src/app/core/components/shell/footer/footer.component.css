@@ -1,0 +1,14 @@
+footer{
+    display: block;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    height: 60px;
+    box-shadow: .25rem .25rem .75rem rgba(0, 0, 0, .05);
+    line-height: 60px; 
+    background: #5C6BC0;
+    color: #ffffff;
+}
+
+

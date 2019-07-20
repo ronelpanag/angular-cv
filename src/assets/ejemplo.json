@@ -1,0 +1,50 @@
+{
+    "id": "ronelpanag",
+    "nombre": "Ronel",
+    "apellido": "Pantaleón",
+    "imagen": "https://avatars0.githubusercontent.com/u/40268531?v=4",
+    "git_profile": "https://github.com/ronelpanag",
+    "ocupacion": "Software developer",
+    "email": "ronelpanag08@gmail.com",
+    "telefono": "809-236-5664",
+    "celular": "809-654-3535",
+    "direccion": "c/Puerto Rico #96, Alma Rosa II, Santo Domingo Este, Rep. Dom.",
+    "fechaNacimiento":"20 de agosto 1999",
+    "estudios": [
+        {"institucion": "Colegio Cardenal Sancha", "tiempo": "2013-2017", "titulo": "Bachiller"}, 
+        {"institucion": "Instituto Tecnológico de las Americas (ITLA)", "tiempo": "2017-2019", "titulo": "Tecnólogo en Desarrollo de Software"}
+    ],
+    "habilidades_tecnicas": [
+        "Git", "C# (ASP MVC 5, ASP.NET Core, Xamarin)", "JavaScript", "TypeScript", 
+        "Java (SE, Android)", "Angular", "Php"
+    ],
+    "habilidades_blandas": [
+        "Trabajo en equipo", "Responsabilidad", "Liderazgo", "Comunicación", 
+        "Deseo de aprender", "Resolución de problemas", "Compromiso",
+        "Fácil adaptación a cambios"
+    ],
+    "experiencia":[
+        {
+            "tiempo": "3 meses", 
+            "empresa": "GPD Share Center", 
+            "location": "Av. Gustavo Mejia Ricard #54, Naco, Sto. Dgo., Rep. Dom.",
+            "cargo": "Pasante TI",
+            "descripcion": "Ejercí funciones de soporte técnico para los departamentos de Infraestructura, Desarrollo y Sistemas de Producción y cambios de software."
+        },
+        {
+            "tiempo": "10 meses", 
+            "empresa": "GPD Share Center", 
+            "location": "Av. Gustavo Mejia Ricard #54, Naco, Sto. Dgo., Rep. Dom.",
+            "cargo": "Programador",
+            "descripcion": "Resolución de problemas técnicos, desarrollo de herramientas y asistencia en la gestión de proyectos de software fueron parte de mi día a día en esta posición."
+        }
+    ],
+    "actividades_extracurrilares": [
+        {"funcion": "Delegación de Cuba", "lugar": "CCSMUN"},
+        {"funcion": "Miembro", "lugar": "De Joven a Joven"},
+        {"funcion": "Representante del Colegio Cardenal Sancha", "lugar": "Recicla y Aprende"},
+        {"funcion": "Vicepresidente", "lugar": "Comité Cívico Sabrina Manzueta"},
+        {"funcion": "Coordinador Alma Rosa", "lugar": "Primeros Votantes con Karen"},
+        {"funcion": "Director", "lugar": "Coro Juvenil, CCS"}
+    ]
+}

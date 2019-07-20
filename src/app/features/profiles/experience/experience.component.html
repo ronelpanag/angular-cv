@@ -1,0 +1,15 @@
+<div>
+    <app-profile-viewer></app-profile-viewer>
+</div>
+
+<div class="left">    
+    <h2>Experiencia laboral</h2>
+    <hr>
+    <ul *ngFor="let experiencia of profile.experiencia">
+        <li>{{experiencia.cargo}} </li>
+        <li>{{experiencia.empresa}} </li>
+        <li>{{experiencia.location}} </li>
+        <li>{{experiencia.tiempo}} </li>
+        <li>{{experiencia.descripcion}} </li>
+    </ul>
+</div>
